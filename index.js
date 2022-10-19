@@ -1,6 +1,5 @@
 const fastify = require('fastify')({ logger: true })
 const dockerId = require('docker-container-id')
-const os = require('os')
 const neas = require('./neas.js')
 const port = process.env.PORT || 80
 
@@ -29,7 +28,6 @@ fastify.get('/', async (request, reply) => {
         },
         status: 'success',
         container: container,
-        host: os.hostname(),
       })
   }
 })
