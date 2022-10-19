@@ -1,12 +1,13 @@
 const fastify = require('fastify')({ logger: true })
-const dockerId = require('docker-container-id')
+const os = require('os')
 const neas = require('./neas.js')
 const port = process.env.PORT || 80
 
 fastify.get('/', async (request, reply) => {
-  const number = Math.floor(Math.random() * neas.length);
-  const nea = neas[number];
-  const container = await dockerId();
+  const number = Math.floor(Math.random() * neas.length)
+  const nea = neas[number]
+  const container = os.hostname()
+  console.log(container)
   if (!container) {
     reply
       .code(500)
@@ -34,7 +35,10 @@ fastify.get('/', async (request, reply) => {
 
 const start = async () => {
   try {
-    await fastify.listen({ port: port })
+    await fastify.listen({
+      port: port,
+      host: '0.0.0.0'
+    })
   } catch (err) {
     fastify.log.error(err)
     process.exit(1)
