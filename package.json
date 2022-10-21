@@ -2,14 +2,21 @@
   "name": "random",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node ./src/server.js",
+    "dev": "NODE_ENV=development PORT=3000 nodemon ./src/server.js"
   },
   "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
-    "fastify": "^4.7.0"
+    "fastify": "^4.7.0",
+    "fastify-cors": "^6.1.0",
+    "fastify-plugin": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
