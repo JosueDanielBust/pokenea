@@ -4,7 +4,7 @@ const neas = [
     name: 'Cristian',
     height: 1.80,
     ability: 'Insultar',
-    image: 'https://via.placeholder.com/200x100.png?text=Cristian',
+    image: 'https://storage.googleapis.com/teis/pokenea/cristian.png',
     phrase: 'Siempre neas, nunca gente de bien'
   },
   {
@@ -12,7 +12,7 @@ const neas = [
     name: 'Brayan',
     height: 1.70,
     ability: 'Hacerse el loco',
-    image: 'https://via.placeholder.com/200x100.png?text=Brayan',
+    image: 'https://storage.googleapis.com/teis/pokenea/brayan.png',
     phrase: 'No llore papi, acuerdese que somos neas'
   },
   {
@@ -20,7 +20,7 @@ const neas = [
     name: 'Jorge',
     height: 1.75,
     ability: 'Masticar chicle',
-    image: 'https://via.placeholder.com/200x100.png?text=Jorge',
+    image: 'https://storage.googleapis.com/teis/pokenea/jorge.png',
     phrase: 'No me diga que no'
   },
   {
@@ -28,7 +28,7 @@ const neas = [
     name: 'Valentina',
     height: 1.65,
     ability: 'Poner cachos',
-    image: 'https://via.placeholder.com/200x100.png?text=Valentina',
+    image: 'https://storage.googleapis.com/teis/pokenea/valentina.png',
     phrase: 'Y eso es la vida, reir un rato y sufrir al otro',
   },
   {
@@ -36,7 +36,7 @@ const neas = [
     name: 'Daniela',
     height: 1.60,
     ability: 'Mentir',
-    image: 'https://via.placeholder.com/200x100.png?text=Daniela',
+    image: 'https://storage.googleapis.com/teis/pokenea/daniela.png',
     phrase: 'Madurar támbien es dejar de insistir, porque el amor no se trata de rogar',
   },
   {
@@ -44,7 +44,7 @@ const neas = [
     name: 'Andrea',
     height: 1.63,
     ability: 'Coquetear',
-    image: 'https://via.placeholder.com/200x100.png?text=Andrea',
+    image: 'https://storage.googleapis.com/teis/pokenea/andrea.png',
     phrase: 'Marica, ya no me hables más',
   },
   {
@@ -52,7 +52,7 @@ const neas = [
     name: 'Santiago',
     height: 1.70,
     ability: 'Escaparse de la casa',
-    image: 'https://via.placeholder.com/200x100.png?text=Santiago',
+    image: 'https://storage.googleapis.com/teis/pokenea/santiago.png',
     phrase: '¡Oigan a esta!',
   },
 ]
